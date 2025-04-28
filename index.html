@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Pepsi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">/ -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div><strong>PEPSI</strong></div>
+  <nav>
+    <a href="#about">О нас</a>
+    <a href="#products">Продукты</a>
+    <a href="#video">Видео</a>
+    <a href="#contact">Контакты</a>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1 id="pepsi">Освежись с Pepsi</h1>
+</section>
+
+<section class="section" id="about">
+  <h2>О Pepsi</h2>
+  <p>Pepsi — это не просто напиток, это стиль жизни. Уже более 100 лет мы вдохновляем людей по всему миру, предлагая яркий и освежающий вкус.</p>
+</section>
+
+
+<section class="section" id="products">
+  <h2>Наши продукты</h2>
+<swiper-container>
+  <swiper-slide>
+    <div class="products">
+      <img src="img/Pepsi-PNG-Image-Free-Download.png" alt="Pepsi Classic" class="pepsi1" style="height: 360px;">
+    </div>
+  </swiper-slide>
+  <swiper-slide>
+      <img src="img/Pepsi Zero.png" alt="Pepsi Zero">
+  </swiper-slide>
+  <swiper-slide>
+      <img src="img/Diet Pepsi.png" alt="Diet Pepsi">
+  </swiper-slide>
+  </div>  
+</swiper-container>
+</section>
+
+<section class="section" id="video">
+  <h2>Реклама Pepsi</h2>
+  <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YLFZkMML-vQ?si=jh_caulTFYe8hDbP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Подпишись на новости</h2>
+  <div class="subscribe">
+    <input type="email" placeholder="Ваш email">
+    <button onclick="subscribe()">Подписаться</button>
+  </div>
+</section>
+
+<footer id="contact">
+  <h3>Контакты</h3>
+  <p>Email: info@pepsi.com</p>
+  <p>Телефон: +7 (800) 555-35-35</p>
+  <p>&copy; 2025 Pepsi. Все права защищены.</p>
+  <button class="button2"><img src="img/arrow_forward_20dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.png" alt=""></button>
+</footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
